@@ -9,4 +9,4 @@
     
     gulp l1  //l2 ...
     
-then open [localhost:8080/test.html](localhost:8080/test.html)
+then open [http://localhost:8080/test.html](http://localhost:8080/test.html)
