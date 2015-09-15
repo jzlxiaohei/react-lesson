@@ -11,7 +11,7 @@ module.exports = {
     entry: {
         'index':[
             "webpack/hot/dev-server"
-            //"./src/L1/index.js" //每个gulp文件自己push
+            //"./src/L1/index.js" //每个gulp task自己push进自己的index
         ]
 
     },
@@ -56,7 +56,7 @@ module.exports = {
     plugins: [
         //new ExtractTextPlugin("[name].css")
         //new webpack.HotModuleReplacementPlugin(),
-        assetsPluginInstance,
+        assetsPluginInstance,//暂时忽略吧
         new webpack.OldWatchingPlugin()//新版的不知道为啥不watch，用这个可以临时解决。
     ]
 }
