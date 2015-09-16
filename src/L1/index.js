@@ -12,6 +12,7 @@ console.log(list1 ==  list)//false
 let list2 = list1.withMutations(function(l){
     l.push(3).push(4);
 })
+
 console.log(list2.toArray())//[1,2,3,4]
 console.log(list2.toArray() == list2.toArray())//false
 
