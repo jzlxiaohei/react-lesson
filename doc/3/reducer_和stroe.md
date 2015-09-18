@@ -53,7 +53,7 @@ Redux有很明显的函数式风格。其中的`reducer`，和上面的那个是
 	
 	if(action.type=='add'){
 		//新语法
-		retrun [
+		return [
 			...state,
 			action.payLoad
 		]
